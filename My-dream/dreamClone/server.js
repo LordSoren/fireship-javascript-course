@@ -20,7 +20,7 @@ app.post('/dream', async (req, res) =>{
 
     const prompt = req.body.prompt;
 
-    const aiResponde = await openai.createImage({
+    const aiResponse = await openai.createImage({
         prompt,
         n: 1,
         size: '1024x1024',
@@ -31,4 +31,4 @@ app.post('/dream', async (req, res) =>{
 
 });
 
-app.listen(8000, () => console.log('make art on http://localhost:8000/dream'));
+app.listen(8080, () => console.log('make art on http://localhost:8080/dream'));
