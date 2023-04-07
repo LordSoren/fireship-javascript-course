@@ -1,6 +1,8 @@
 # Fireship Vanilla JS Course
 
-Learn the fundamentals of [modern JavaScript](https://fireship.io/courses/js) programming and web development in this fun, fast-paced course.
+I forked this repository so that I could more easily reference the source code used in the demo-videos.
+the algorithms\my_answers.js file and .\MyDream\dreamClone folder contain my own work. In the latter, case, it was mostly done by copying things from the videos.
+This was just for learning purposes.
 
 ## Projects
 
